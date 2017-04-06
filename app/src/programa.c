@@ -44,7 +44,7 @@ int main( void ){
       gpioWrite( LED3, !(gpioRead(TEC4)) );
 
       // Intercambia el valor del LEDB
-      gpioToggle( LEDB );
+      gpioToggle( LEDR );
       
       // Retardo bloqueante durante 100ms
       delay( 100 );
